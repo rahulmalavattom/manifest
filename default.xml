@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<default revision="master" remote="https://github.com/rahulmalavattom"/>
-<remote name="comcast_github_screen" fetch="https://github.com/rahulmalavattom"/>
-<project name="test" remote="comcast_github_screen" path="test_path"/>
+<remote name="rahul_test" fetch="https://github.com"/>
+<default revision="refs/heads/master" remote="rahul_test" sync-j="4"/>
+<project name="rahulmalavattom/test" remote="rahul_test" path="Test_folder"/>
 </manifest>
