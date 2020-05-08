@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<default revision="master" remote="origin"/>
+	<default revision="master" remote="https://github.com/rahulmalavattom"/>
 <remote name="comcast_github_screen" fetch="https://github.com/rahulmalavattom"/>
 <project name="test" remote="comcast_github_screen" path="test_path"/>
 </manifest>
